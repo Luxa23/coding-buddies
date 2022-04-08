@@ -1,1 +1,65 @@
 /* Variablen, *, body, html, root, Farben */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: var(--denim-100);
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --medium-grey: #e0e4e8;
+  --light-grey: #f8f8f8;
+  --denim-100: #193251;
+  --denim-200: #7589a2;
+  --tangerine-100: #ff5a36;
+  --tangerine-200: #ff9c86;
+  --tangerine-300: #ffbdaf;
+  --tangerine-400: #ffded7;
+
+  --medium-grey-border: 1px solid #e0e4e8;
+  --denim-border: 1px solid #7589a2;
+
+  --boxshadow-grey: 0px 2px 11px rgba(25, 50, 81, 0.2);
+  --boxshadow-tangerine: 0px 4px 10px rgba(255, 90, 54, 0.4);
+  --border-radius: 10px;
+
+  --title: 700 16px "Open Sans";
+
+  --body-large: 700 16px "Open Sans";
+
+  --body-small: 400 14px "Open Sans";
+
+  --headline: 600 14px "Open Sans";
+
+  --label: 400 12px "Open Sans";
+}
+
+.title {
+  font: var(--title);
+}
+
+.body-large {
+  font: var(--body-large);
+}
+
+.body-small {
+  font: var(--body-small);
+}
+
+.headline {
+  font: var(--headline);
+}
+
+.label {
+  font: var(--label);
+  color: var(--denim-200);
+}
