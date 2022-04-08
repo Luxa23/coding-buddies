@@ -1,10 +1,26 @@
 .nav {
+  display: flex;
+  justify-content: center;
   position: fixed;
+  gap: 15px;
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(245, 245, 245);
   border-radius: 10px;
-  border: 1px solid #7589a2;
   box-shadow: 0px 2px 11px rgba(25, 50, 81, 0.203238);
+}
+
+.nav--links {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav--links path {
+  fill: #7589A2;
+}
+.nav--links.active path{
+   fill: red;
 }
