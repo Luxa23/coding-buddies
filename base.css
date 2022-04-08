@@ -1,4 +1,21 @@
 /* Variablen, *, body, html, root, Farben */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+
 :root {
+  --medium-grey: #e0e4e8;
+  --light-grey: #f8f8f8;
+  --denim-100: #193251;
+  --denim-200: #7589a2;
+  --tangerine-100: #ff5a36;
 }
