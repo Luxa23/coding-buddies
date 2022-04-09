@@ -1,0 +1,64 @@
+.button__wrapper--column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 8%;
+}
+
+.button__wrapper--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 8%;
+}
+
+.button {
+  background-color: var(--tangerine-100);
+  color: white;
+  font: var(--body-large);
+  border-radius: 4px;
+  border-style: none;
+  padding: 12px 0;
+}
+
+.button:active {
+  background-color: #b73f25;
+  color: rgb(217, 203, 203);
+}
+
+.button__75 {
+  background-color: var(--tangerine-200);
+}
+
+.button__50 {
+  background-color: var(--tangerine-300);
+  color: var(--tangerine-100);
+}
+
+.button__25 {
+  background-color: var(--tangerine-400);
+  color: var(--tangerine-100);
+}
+
+.button__with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.button-center {
+  margin: auto;
+  width: 12.4rem;
+}
+
+.button__wrapper--row button {
+  flex-grow: 1;
+}
+
+.button__cancel {
+  background-color: white;
+  color: var(--demin-100);
+}
