@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Button</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-    <button class="button button__100">100%</button>
-    <button class="button button__75">75%</button>
-    <button class="button button__50">50%</button>
-    <button class="button button__25">25%</button>
-    <button class="button button__with-icon">Rate Today
-        
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="button__wrapper--column">
+      <button class="button">100%</button>
+      <button class="button button__75">75%</button>
+      <button class="button button__50">50%</button>
+      <button class="button button__25">25%</button>
+    </div>
+    <button class="button button__with-icon button-center">
+      Rate Today
+      <svg
+        width="21"
+        height="16"
+        viewBox="0 0 21 19"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M10.5 0.6875L13.2038 6.15924L19.25 7.04206L14.875 11.2988L15.9075 17.3125L10.5 14.4717L5.0925 17.3125L6.125 11.2988L1.75 7.04206L7.79625 6.15924L10.5 0.6875V0.6875Z"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
     </button>
-
-</body>
+    <div class="button__wrapper--row">
+      <button class="button button__cancel">Cancel</button>
+      <button class="button button__with-icon">
+        Save
+        <svg
+          width="16"
+          height="13"
+          viewBox="0 0 16 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.0236 8.59557L13.2944 1.18074C13.7014 0.815827 14.326 0.8454 14.6968 1.24714L14.8148 1.375C15.1798 1.77051 15.1663 2.38396 14.7842 2.76304L5.74604 11.7312C5.34912 12.1251 4.70637 12.1169 4.31956 11.7132L0.824495 8.06465C0.458803 7.6829 0.453407 7.08248 0.812179 6.69422L0.881718 6.61897C1.22921 6.24292 1.80461 6.19009 2.21476 6.49659L5.0236 8.59557Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
 </html>

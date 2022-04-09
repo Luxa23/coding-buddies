@@ -1,15 +1,15 @@
-/* for dev */
-body {
+.button__wrapper--column {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin: 1rem;
+  margin: 8%;
 }
 
-.button-wrapper {
+.button__wrapper--row {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
   margin: 8%;
 }
 
@@ -34,4 +34,26 @@ body {
 .button__25 {
   background-color: var(--tangerine-400);
   color: var(--tangerine-100);
+}
+
+.button__with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.button-center {
+  margin: auto;
+  width: 12.4rem;
+}
+
+.button__wrapper--row button {
+  flex-grow: 1;
+}
+
+.button__cancel {
+  background-color: white;
+  color: var(--demin-100);
 }
