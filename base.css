@@ -59,7 +59,12 @@ body {
   font: var(--headline);
 }
 
+.headline--uppercase {
+  text-transform: uppercase;
+}
+
 .label {
   font: var(--label);
   color: var(--denim-200);
+  margin-bottom: 0.3rem;
 }

@@ -1,0 +1,48 @@
+* {
+  _outline: 2px solid red;
+}
+
+.entry path,
+.entry rect {
+  fill: var(--medium-grey);
+}
+
+.entry svg:nth-of-type(1) path,
+.entry svg:nth-of-type(2) path,
+.entry svg:nth-of-type(3) path,
+.entry svg:nth-of-type(1) rect,
+.entry svg:nth-of-type(2) rect,
+.entry svg:nth-of-type(3) rect,
+.entry svg:nth-of-type(4) rect,
+.entry svg:nth-of-type(5) rect,
+.entry svg:nth-of-type(6) rect,
+.entry svg:nth-of-type(7) rect {
+  fill: var(--denim-100);
+}
+
+/* Move to container.css */
+
+.container {
+  display: flex;
+}
+
+.container--column {
+  flex-direction: column;
+}
+
+.container--gap {
+  gap: 0.75rem;
+}
+
+.entry h4,
+.entry p {
+  margin: 0;
+}
+
+.stars {
+  gap: 0.75rem;
+}
+
+.boxes {
+  gap: 0.2rem;
+}
