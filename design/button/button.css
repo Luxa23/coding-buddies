@@ -22,6 +22,11 @@
   padding: 12px 0;
 }
 
+.button:active {
+  background-color: #b73f25;
+  color: rgb(217, 203, 203);
+}
+
 .button__75 {
   background-color: var(--tangerine-200);
 }
