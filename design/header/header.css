@@ -1,0 +1,26 @@
+* {
+  _border: 1px solid red;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 59px;
+  background-image: url("/images/background_shape_1.svg");
+  background-size: cover;
+}
+
+.label {
+  margin: 4px 0;
+}
+
+.header--big {
+  height: 81px;
+}
+
+.title {
+  margin: 0;
+}
