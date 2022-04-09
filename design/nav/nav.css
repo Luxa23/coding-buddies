@@ -6,9 +6,9 @@
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background-color: rgb(245, 245, 245);
-  border-radius: 10px;
-  box-shadow: 0px 2px 11px rgba(25, 50, 81, 0.203238);
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--boxshadow-grey);
 }
 
 .nav--links {
@@ -19,8 +19,8 @@
 }
 
 .nav--links path {
-  fill: #7589A2;
+  fill: var(--denim-200);
 }
 .nav--links.active path{
-   fill: red;
+   fill: var(--denim-100);
 }
