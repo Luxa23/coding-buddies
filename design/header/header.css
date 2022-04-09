@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 59px;
+  background-image: url("/images/background_shape_1.svg");
+  background-size: cover;
+}
+
+.header--big {
+  height: 81px;
+}
+
+.title__header {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.label__header {
+  margin: 4px 0;
+}
