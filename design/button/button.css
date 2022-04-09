@@ -1,0 +1,37 @@
+/* for dev */
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 8%;
+}
+
+.button {
+  background-color: var(--tangerine-100);
+  color: white;
+  font: var(--body-large);
+  border-radius: 4px;
+  border-style: none;
+  padding: 12px 0;
+}
+
+.button__75 {
+  background-color: var(--tangerine-200);
+}
+
+.button__50 {
+  background-color: var(--tangerine-300);
+  color: var(--tangerine-100);
+}
+
+.button__25 {
+  background-color: var(--tangerine-400);
+  color: var(--tangerine-100);
+}
