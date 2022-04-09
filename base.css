@@ -49,6 +49,7 @@ body {
 
 .body-large {
   font: var(--body-large);
+  color: var(--denim-200);
 }
 
 .body-small {
