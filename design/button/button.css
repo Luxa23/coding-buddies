@@ -55,6 +55,10 @@
   width: 12.4rem;
 }
 
+.button--margin {
+  margin-bottom: 1rem;
+}
+
 .button__wrapper--row button {
   flex-grow: 1;
 }
