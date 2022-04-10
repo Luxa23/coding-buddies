@@ -20,20 +20,6 @@
   fill: var(--denim-100);
 }
 
-/* Move to container.css */
-
-.container {
-  display: flex;
-}
-
-.container--column {
-  flex-direction: column;
-}
-
-.container--gap {
-  gap: 0.75rem;
-}
-
 .entry h4,
 .entry p {
   margin: 0;

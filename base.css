@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 100px 0;
+  /* 100px for the bottom of the page because of nav */
 }
 
 :root {

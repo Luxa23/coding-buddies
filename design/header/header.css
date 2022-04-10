@@ -9,6 +9,10 @@
   background-size: cover;
 }
 
+/* background-size: auto 50px, 100%;
+background-position: bottom;
+background-repeat: repeat-x; */
+
 .header--big {
   height: 81px;
 }
