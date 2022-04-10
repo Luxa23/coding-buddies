@@ -1,8 +1,9 @@
+/* double check with container */
 .button__wrapper--column {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin: 8%;
+  /* margin: 8%; */
 }
 
 .button__wrapper--row {
