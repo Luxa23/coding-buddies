@@ -7,16 +7,16 @@
   fill: var(--medium-grey);
 }
 
-.entry svg:nth-of-type(1) path,
-.entry svg:nth-of-type(2) path,
-.entry svg:nth-of-type(3) path,
-.entry svg:nth-of-type(1) rect,
-.entry svg:nth-of-type(2) rect,
-.entry svg:nth-of-type(3) rect,
-.entry svg:nth-of-type(4) rect,
-.entry svg:nth-of-type(5) rect,
-.entry svg:nth-of-type(6) rect,
-.entry svg:nth-of-type(7) rect {
+.entry .stars svg:nth-of-type(1) path,
+.entry .stars svg:nth-of-type(2) path,
+.entry .stars svg:nth-of-type(3) path,
+.entry .boxes svg:nth-of-type(1) rect,
+.entry .boxes svg:nth-of-type(2) rect,
+.entry .boxes svg:nth-of-type(3) rect,
+.entry .boxes svg:nth-of-type(4) rect,
+.entry .boxes svg:nth-of-type(5) rect,
+.entry .boxes svg:nth-of-type(6) rect,
+.entry .boxes svg:nth-of-type(7) rect {
   fill: var(--denim-100);
 }
 
