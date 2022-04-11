@@ -5,6 +5,7 @@
 - structure -- do not touch
 - design/<component-name>
 - page/<page-name>
+- issues/<issue-name>
 
 ## Commit name convention
 
