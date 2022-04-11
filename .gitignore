@@ -105,3 +105,6 @@ dist
 
 # useless
 .DS_Store
+
+# scratch folder
+scratch
